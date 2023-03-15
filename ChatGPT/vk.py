@@ -7,7 +7,7 @@ vk_session = vk_api.VkApi(token='vk1.a.ptCAnpWkPlWaIDHMPhGbOCO5Tu8c7QWkvD4vBjMJW
 vk = vk_session.get_api()
 
 # Авторизация OpenAI API
-openai.api_key = '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'
+openai.api_key = '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'
 
 # Функция для генерации ответа при получении нового сообщения  
 def generate_response(message):     
